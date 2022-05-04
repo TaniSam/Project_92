@@ -1,0 +1,68 @@
+<html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="Quiz.js"></script>
+<link rel="stylesheet" type="css" href="quiz.css">
+<script src="Quiz.js"></script>
+    </head>
+    <body background="Img.jpg">
+        <br>
+        <span id="player_1_s">
+            <h4 id="score_1" class="Name">
+            </h4>
+           </span>
+     <span id="player_2_s">
+         <h4 id="score_2">
+    
+         </h4>
+</h4> 
+</span>
+
+
+        <br>
+        <span id="question_player">
+            <h4 class="Turn">
+                Ask: 
+            </h4>
+           </span>
+     <h4 class="Turn">
+    Answer: 
+</h4> 
+</span>
+<center>
+<h1> Math Quiz!!</h1>
+<br>
+Type The numbers Here:
+<br> 
+<row id="question">
+    <input id="n1" type="number">
+    <input id="n2" type="number">
+</row>
+<br> <br>
+<button id="ask" onclick="ask()" class="btn-primary"> Ask </button>
+<br> <br>
+<div class="container" style="background-color: white; height: fit-content; width: fit-content; padding: 20px; border-radius: 20%; border-style: dotted;">
+<row>
+    <h4 id="qn1"></h4>
+    X
+    <h4 id="qn2"></h4>
+    <br> <br>
+</row>
+<row>
+Answer: 
+<input id="answer" type="number">
+</row>
+<br>
+    <br>
+<button id="check" onclick="check()" class="btn-primary">
+Check
+</button>
+</div>
+<h2 id="Remark"></h2>
+
+</center>
+    </body>
+</html>
